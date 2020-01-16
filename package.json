@@ -1,0 +1,21 @@
+{
+  "name": "stylelint-config-acb",
+  "version": "1.0.0",
+  "description": "Stylelint config for ACB",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix *.js"
+  },
+  "author": "A Color Bright GmbH",
+  "license": "MIT",
+  "dependencies": {
+    "stylelint-config-property-sort-order-acb": "github:acolorbright/stylelint-config-property-sort-order-acb#v1.0.0",
+    "stylelint-config-recommended": "3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "6.3.0",
+    "eslint-config-acb-base": "github:acolorbright/eslint-config-acb-base#v3.1.0",
+    "eslint-plugin-extra-rules": "0.8.1",
+    "eslint-plugin-import": "2.18.2"
+  }
+}
