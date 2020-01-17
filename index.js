@@ -14,13 +14,13 @@ module.exports = {
     "value-no-vendor-prefix": true,
     "declaration-property-value-whitelist": {
       "/color$/": [
-        "/^\\$|initial|inherit|transparent|currentColor|gray|hwb|rgba|hsl|var/"
+        "/^\\$|initial|inherit|transparent|currentColor|var/"
       ],
       "fill": [
-        "/^\\$|initial|inherit|transparent|currentColor|gray|hwb|rgba|hsl|var/"
+        "/^\\$|initial|inherit|transparent|currentColor|var/"
       ],
       "stroke": [
-        "/^\\$|initial|inherit|transparent|currentColor|gray|hwb|rgba|hsl|var/"
+        "/^\\$|initial|inherit|transparent|currentColor|var/"
       ]
     }
   }
