@@ -12,16 +12,5 @@ module.exports = {
     "max-nesting-depth": 3,
     "media-feature-name-no-vendor-prefix": true,
     "value-no-vendor-prefix": true,
-    "declaration-property-value-whitelist": {
-      "/color$/": [
-        "/^\\$|initial|inherit|transparent|currentColor|var/"
-      ],
-      "fill": [
-        "/^\\$|initial|inherit|transparent|currentColor|var/"
-      ],
-      "stroke": [
-        "/^\\$|initial|inherit|transparent|currentColor|var/"
-      ]
-    }
   }
 }
